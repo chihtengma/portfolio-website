@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import MeowMarket from "../public/MeowMarket.png";
 import NASAImg from "../public/NASA_MISSION_CONTROL.png";
 import Podium from "../public/Podium.png";
+import Evently from "../public/Evently.png";
 
 export const links = [
    {
@@ -58,21 +59,31 @@ export const projectsData = [
       description:
          "A custom fullstack e-commerce platform, integrating product catalog management, inventory tracking, secure payment processing, and user-friendly interface.",
       tags: ["React", "Redux", "Node.js", "Express.js", "BootStrap", "Stripe", "PostgreSQL"],
-      imgUrl: MeowMarket
+      imgUrl: MeowMarket,
+      link: "https://github.com/jerryc-jpg/MeowMarket"
    },
    {
       title: "Podium",
       description:
          "A comprehensive sports management platform that enables players, teams, and sports organizations to streamline their operations, manage schedules, track performance, and communicate effectively.",
       tags: ["React", "Redux", "Node.js", "Express.js", "BootStrap", "PostgreSQL", "OAuth"],
-      imgUrl: Podium
+      imgUrl: Podium,
+      link: "https://github.com/Sports-Management-FSA/cap_sports_management"
    },
    {
       title: "NASA Mission Control Project",
       description:
          "The NASA Mission Control System is an innovative project that leverages real-life data and the SpaceX API to create a cutting-edge launch system. ",
       tags: ["React", "Node.js", "Express.js", "MongoDB"],
-      imgUrl: NASAImg
+      imgUrl: NASAImg,
+      link: "https://github.com/chihtengma/NASA-PROJECT"
+   },
+   {
+      title: "Evently",
+      description: "A comprehensive, full-stack platform for managing events.",
+      tags: ["Next.js", "React", "TypeScript", "Stripe", "Tailwind", "Node.js"],
+      imgUrl: Evently,
+      link: "https://github.com/chihtengma/event-platform"
    }
 ] as const;
 
